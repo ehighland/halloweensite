@@ -134,3 +134,12 @@ h2, h3, h5 {
 #purple {
 	color: #8a29b2;
 }
+
+#spanline {
+	display: grid;
+	min-width: 200px;
+	min-height: 10px;
+	border-width: 0 0 2px 0;
+	border-color: #FFCB2D;
+	border-style: solid;
+}
