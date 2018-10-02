@@ -1,0 +1,136 @@
+body {
+background-color: #202020;
+color: #29B28A;
+font-size: 12pt;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+	padding: 2px;
+	margin: 5px;
+	background-color: #606060;
+	border: 2px solid #8a29b2;
+	border-radius: 5em;
+}
+
+header p {
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+	color: #8a29b2;
+
+}
+
+header h2 {
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+	color: #FFCB2D;
+}
+
+.spookyname {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 2em;
+	align-items: center;
+}
+
+.spookynav {
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 5em;
+	text-align: center;
+}
+
+.spookynav div {
+	border: 2px solid #8a29b2;
+	border-radius: 5em;
+}
+
+.spookynav div:hover {
+	background-color: #606060; 
+}
+
+.spookynav a {
+	color: #FFCB2D;
+	text-decoration: none;
+	font-family: 'Cairo', sans-serif;
+}
+
+.spookynav a:hover {
+	color: #202020;
+}
+
+.container {
+	color: #29B28A;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2em;
+	margin: 50px 100px;
+}
+
+h2, h3, h5 {
+	text-align: center;
+}
+
+.myButton {
+	border: 2px solid #FFCB2D;
+	border-radius: 5em;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.myButton:hover {
+	background-color: #606060;
+}
+
+#recs {
+	margin: 10px 30px;
+	border: 2px solid #FFCB2D;
+	border-radius: 5em;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	text-align: center;
+}
+
+#recs ul {
+	list-style-type: none;
+	list-style-position: inside;
+	text-align: center;
+}
+
+#recs ul li {
+	width: 100%;
+	border-radius: 5em;
+}
+
+#recs ul li a {
+	color: #FFCB2D;
+	text-decoration: none;
+}
+
+#recs ul li a:hover{
+	text-decoration: line-through;
+}
+
+#footnotes {
+	font-size: 8pt;
+	color: #FFCB2D;
+	margin-top: 80px;
+}
+
+#footnotes a {
+	color: #29B28A;
+}
+
+#revs {
+	margin: 10px 30px;
+	border: 2px solid #FFCB2D;
+	border-radius: 5em;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+#purple {
+	color: #8a29b2;
+}
