@@ -63,12 +63,13 @@ header h2 {
 .container {
 	color: #29B28A;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2em;
 	margin: 50px 100px;
+	font-size: 20pt;
 }
 
-h2, h3, h5 {
+h1, h2, h3, h5 {
 	text-align: center;
 }
 
@@ -78,10 +79,15 @@ h2, h3, h5 {
 	padding: 5px;
 	margin: 5px;
 	cursor: pointer;
+	text-align: center;
 }
 
-.myButton:hover {
-	background-color: #606060;
+#output {
+	border: 2px solid #FFCB2D;
+	border-radius: 5em;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
 }
 
 #recs {
@@ -142,4 +148,17 @@ h2, h3, h5 {
 	border-width: 0 0 2px 0;
 	border-color: #FFCB2D;
 	border-style: solid;
+}
+
+.rev-scroll {
+	max-height: 500px;
+	overflow: scroll;
+}
+
+.rev-scroll a {
+	color: #FFCB2D;
+}
+
+.rev-scroll #spanline {
+	border-color: #606060;
 }
